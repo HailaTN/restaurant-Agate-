@@ -1,0 +1,43 @@
+.link {
+    @include link;
+
+    &--white {
+        color: $primary-color;
+        margin: 0 auto;
+    }
+
+    &--black {
+        color: $secondary-color;
+        margin: 0 auto;
+    }
+
+    &:hover {
+        background-color: #FFA60D;
+        border-color: #FFA60D;
+        color: $primary-color;
+        transition-property: background-color border-color;
+        transition-duration: .5s;
+    }
+
+    @media screen and (max-width: 1024px) {
+        & {
+            font-size: 17px;
+            max-width: 248px;
+            height: 48px;
+        }
+    }
+
+    @media screen and (max-width: 670px) {
+        & {
+            font-size: 15px;
+            max-width: 230px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        & {
+            font-size: 12px;
+            max-width: 200px;
+        }
+    }
+}

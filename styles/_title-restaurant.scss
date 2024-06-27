@@ -1,0 +1,28 @@
+.title-restaurant {
+    color: $primary-color;
+    font-size: 85px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 914px;
+
+    @media screen and (max-width: 1024px) {
+        & {
+            font-size: 60px;
+            max-width: 697px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        & {
+            font-size: 50px;
+            max-width: 329px;
+        }
+    }
+
+    @media screen and (max-width: 670px) {
+        & {
+            font-size: 40px;
+            max-width: 300px;
+        }
+    }
+}

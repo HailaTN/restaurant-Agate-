@@ -1,0 +1,30 @@
+.description {
+    color: $secondary-color;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+
+    @media screen and (max-width: 1024px) {
+        & {
+            font-size: 22px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        & {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 670px) {
+        & {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        & {
+            font-size: 12px;
+        }
+    }
+}

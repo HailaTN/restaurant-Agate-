@@ -1,0 +1,21 @@
+.title-footer {
+    color: $primary-color;
+    font-size: 65px;
+    text-align: center;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 670px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 25px;
+    }
+}

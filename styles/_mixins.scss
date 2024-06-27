@@ -1,0 +1,36 @@
+@mixin link {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid;
+    max-width: 312px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@mixin text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+@mixin icon { 
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+    font-size: 14px;
+    color: $primary-color;
+    line-height: 55px;
+    text-align: center;
+} 

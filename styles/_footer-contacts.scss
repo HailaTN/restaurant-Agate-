@@ -1,0 +1,37 @@
+.footer-contacts {
+    background: #262626;
+    padding: 100px 0;
+
+    &__text {
+        color: #B1B1B1;
+        margin-bottom: 60px;
+
+    }
+
+    @media screen and (max-width: 1024px) {
+        & {
+            padding: 80px 0 78px;
+
+            &__text {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        & {
+            padding: 65px 0 70px;
+
+            &__text {
+                margin-bottom: 40px;
+
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        & {
+            padding: 45px 0 50px;
+        }
+    }
+}
